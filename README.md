@@ -1,4 +1,4 @@
-#### Todo App - React Native
+## Todo App - React Native
 A simple Todo application built with React Native & TypeScript, focused on clean code, scalability, and modern app architecture.
 
 ### 🚀 Overview
@@ -9,29 +9,29 @@ The project is built mainly for learning and practicing Clean Architecture in a 
 
 ### ✨ Features
 
-## 📥 Fetch todos when the app starts
+#### 📥 Fetch todos when the app starts
 
-## ➕ Add new todo
+#### ➕ Add new todo
 
-## ✏️ Edit existing todo
+#### ✏️ Edit existing todo
 
-## 🗑️ Delete todo
+#### 🗑️ Delete todo
 
-## 🔄 Update UI without refetching all data
+#### 🔄 Update UI without refetching all data
 
-## 🌗 Switch between Light & Dark themes from Settings
+#### 🌗 Switch between Light & Dark themes from Settings
 
-## 🧼 Clean and maintainable project structure
+#### 🧼 Clean and maintainable project structure
 
-## 🧱 Architecture
+#### 🧱 Architecture
 
-## Clean Architecture (Domain / Data / Presentation)
+#### Clean Architecture (Domain / Data / Presentation)
 
-## Clear separation between UI, business logic, and API layer
+#### Clear separation between UI, business logic, and API layer
 
-## Easy to extend and maintain
+#### Easy to extend and maintain
 
-## 🌐API
+#### 🌐API
 
 Uses a Fake REST API (DummyJSON)
 
