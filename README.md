@@ -1,50 +1,40 @@
-# Welcome to your Expo app 👋
+Todo App - React Native
+A simple Todo application built with React Native & TypeScript, focused on clean code, scalability, and modern app architecture.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+🚀 Overview
 
-## Get started
+This app allows users to manage their daily tasks easily.
+It supports adding, updating, and deleting todos, with instant UI updates and a smooth user experience.
+The project is built mainly for learning and practicing Clean Architecture in a real React Native app.
 
-1. Install dependencies
+✨ Features
 
-   ```bash
-   npm install
-   ```
+📥 Fetch todos when the app starts
 
-2. Start the app
+➕ Add new todo
 
-   ```bash
-   npx expo start
-   ```
+✏️ Edit existing todo
 
-In the output, you'll find options to open the app in a
+🗑️ Delete todo
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+🔄 Update UI without refetching all data
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+🌗 Switch between Light & Dark themes from Settings
 
-## Get a fresh project
+🧼 Clean and maintainable project structure
 
-When you're ready, run:
+🧱 Architecture
 
-```bash
-npm run reset-project
-```
+Clean Architecture (Domain / Data / Presentation)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Clear separation between UI, business logic, and API layer
 
-## Learn more
+Easy to extend and maintain
 
-To learn more about developing your project with Expo, look at the following resources:
+🌐API
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Uses a Fake REST API (DummyJSON)
 
-## Join the community
+Suitable for testing and learning
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+No real data persistence (UI state is handled locally)
